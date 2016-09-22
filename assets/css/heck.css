@@ -1,0 +1,417 @@
+/* heck.css
+abstract machines interactive development 
+website and illustration by bob dob ( random house publishing )
+writing, and all written content by dale basye
+*/
+
+
+
+/* ******** HECK STRUCTURE ********* */
+
+html,body {
+	height:100%;
+    background: scroll url('../images/levels/4-fibble/fibble-panel.png') 0 0 repeat;
+	font-family: 'Droid Sans', sans-serif;
+	color: #fff;
+}
+
+.container-fluid {
+	height:100%;
+	background: transparent;
+	padding-top:0px;   
+}
+
+a {
+	color: #f81414;
+}
+
+a:hover, a:active {
+	color: #ddd;
+	text-decoration:none;
+	
+}
+
+/*
+
+section {
+	padding-top:0px;  
+	min-height:calc(100% - 1px);
+}
+*/
+
+
+.row {
+	background: #000;
+	min-height:250px;
+	margin-top:15px; 
+	z-index:11; */
+	position:relative;
+}
+
+
+/*
+img.title {
+	position: absolute;
+	top:100px;
+}
+
+img.flames {
+	position: absolute;
+	top:430px;
+}
+img.character {
+	position: absolute;
+	top:70px;
+}
+*/
+
+
+
+footer {
+	opacity:0.85;
+
+	background: #000;
+	color:#ddd;
+	min-height:100px;
+	padding-top:8em;
+	padding-bottom:10em;
+}
+
+footer .nav>li>a {
+	padding:3px;
+	color:#ccc;
+}
+
+footer .nav>li>a:hover {
+	background-color:transparent;
+	color:#fff;
+}
+
+
+
+
+
+a.toplink {
+display: block;
+position: fixed;
+bottom: -52px;
+right: 15px;
+text-align: center;
+font-size: 30px;
+line-height: 48px;
+height: 50px;
+width: 50px;
+border-radius: 5px;
+z-index: 100;
+-webkit-transition: background-color 0.25s ease-out;
+transition: background-color 0.25s ease-out;
+background-color: rgba(0,0,0,0.3);
+color: #fff;
+}
+
+a.toplink:active {
+	bottom: 15px;
+}
+
+
+
+
+
+/* top menu ------------------------- */
+
+
+/* image menu artwork */
+ /*
+A custom Bootstrap 3.1 template
+from http://bootply.com
+
+This CSS code should follow the 'bootstrap.css'
+in your HTML file.
+
+license: MIT
+author: bootply.com
+*/
+
+
+.icon-bar {
+	background-color:#000;
+}
+.navbar-trans {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	background: scroll url('../images/levels/4-fibble/fibble-panel.png') 0 0 repeat; 
+	background: #000;
+}
+
+.navbar-trans .navbar-fixed-top {
+/*	display:block;
+	clear:both; --- VERTICAL --- */
+	float: right;
+} 
+
+
+.navbar-trans li>a {}
+
+
+/* hovering transitions animation menu: */
+.navbar-trans li>a:hover,.navbar-trans li>a:focus,.navbar-trans li.active {
+	background: #000;
+	opacity: 0.9999999;
+	transition-timing-function: all 1s ease-in-out;
+	-webkit-transition-timing-function: all 1s ease-in-out;
+}
+
+
+.navbar-trans .form-control:focus {
+border-color: #eee;
+outline: 0;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+}
+
+
+/* end MIT Bootply CSS ------ */
+
+
+
+
+
+
+.navbar-trans a { /* font awesome */
+	color:#f81414;
+}
+
+.navbar-trans a:hover, .navbar-trans a:active { /* font awesome */
+	color: #ddd;
+}
+
+
+.navbar-fixed-top li a {
+	width:40px;
+	height:55px;
+	text-indent: -99999px;	
+	opacity: 0.6;
+}
+
+
+.navbar-fixed-top li.fa-buttonz a {
+	text-indent: 0px;
+	opacity: 1.0;
+}
+
+
+
+
+li#low-menu a {
+	background: url("../images/levels/menu-how-low.png") 0px -1px repeat;
+}
+
+li#heck-menu a {
+	background: url("../images/levels/menu-artwork-tiny.png") 0 0 no-repeat;
+}
+li#heck-menu a:hover {
+/*	background: url("../images/levels/menu-artwork.png") -92px 0 repeat-x; */
+}
+li#rapacia-menu a {
+	background: url("../images/levels/menu-artwork-tiny.png") 0 -60px no-repeat;
+}
+li#blimpo-menu a {
+	background: url("../images/levels/menu-artwork-tiny.png") 0 -117px no-repeat;
+}
+li#fibble-menu a {
+	background: url("../images/levels/menu-artwork-tiny.png") 0 -174px no-repeat;
+}
+li#snivel-menu a {
+	background: url("../images/levels/menu-artwork-tiny.png") 0 -233px no-repeat;
+}
+li#precocia-menu a {
+	background: url("../images/levels/menu-artwork-tiny.png") 0 -295px no-repeat;
+}
+li#wise-acres-menu a {
+	background: url("../images/levels/menu-artwork-tiny.png") 0 -350px no-repeat;
+}
+
+li#about-heck-menu a {
+	background: url("../images/levels/about-menu-books.png") 0 0 no-repeat;	
+}
+li#about-author-menu a {
+	background: url("../images/levels/about-menu-author.png") 0 0 no-repeat;	
+}
+
+li.fa-buttonz a, li.fa-buttonz a:hover
+ {
+	background: transparent;
+	margin:0px;
+	padding:0px;
+}
+
+
+
+/*___________________ HECK LEVELS 
+book 1: Heck Where the Bad Kids Go
+book 2: rapacia
+book 3: blimpo
+book 4: fibble
+book 5: snivel
+book 6: precocia
+book 7: wise acres
+
+BOOTSTRAP 3: section#heck container -> row -> column(s)
+
+*/
+
+/* PARENT ROWS ---------- */
+
+#heck .parent-circle {
+	background: url("../images/levels/1-heck/heck-panel.png") 0 0 repeat;
+}
+#heck .visible-md .parent-circle {
+	background: url("../images/levels/1-heck/heck-panel-75percent.png") 0 0 repeat;
+}
+#heck .visible-sm .parent-circle {
+	background: url("../images/levels/1-heck/heck-panel-50percent.png") 0 0 repeat;
+}
+
+#heck .child-circle {
+	background: url("../images/levels/1-heck/heck-bottom-panel.png") 0 0 repeat;
+}
+
+#rapacia .parent-circle {
+	background: url("../images/levels/2-rapacia/rapacia-panel.png") 0 0 repeat;
+}
+
+#rapacia .child-circle {
+	background: url("../images/levels/2-rapacia/rapacia-bottom-panel.png") 0 0 repeat;
+}
+
+#blimpo .parent-circle {
+	background: url("../images/levels/3-blimpo/blimpo-panel.png") 0 0 repeat;
+}
+
+#blimpo .child-circle {
+	background: url("../images/levels/3-blimpo/blimpo-bottom-panel.png") 0 0 repeat;
+}
+
+#fibble .parent-circle {
+	background: url("../images/levels/4-fibble/fibble-panel.png") 0 0 repeat;
+}
+
+#fibble .child-circle {
+	background: url("../images/levels/4-fibble/fibble-bottom-panel.png") 0 0 repeat;
+}
+
+#snivel .parent-circle  {
+	background: url("../images/levels/5-snivel/snivel-panel.png") 0 0 repeat;
+}
+
+#snivel .child-circle  {
+	background: url("../images/levels/5-snivel/snivel-bottom-panel.png") 0 0 repeat;
+}
+
+#precocia .parent-circle {
+	background: url("../images/levels/6-precocia/precocia-panel.png") 0 0 repeat;
+}
+
+#precocia .child-circle {
+	background: url("../images/levels/6-precocia/precocia-bottom-panel.png") 0 0 repeat;
+}
+
+#wise-acres .parent-circle {
+	background: url("../images/levels/7-wise-acres/wise-acres-panel.png") 0 0 repeat;
+}
+
+#wise-acres .child-circle {
+	background: url("../images/levels/7-wise-acres/wise-acres-bottom-panel.png") 0 0 repeat;
+}
+
+
+
+
+#gallery .parent-circle {
+	background: url("../images/levels/8-gallery/gallery-panel.png") 0 0 repeat;
+}
+#gallery .visible-md .parent-circle {
+	background: url("../images/levels/8-gallery/gallery-panel-75percent.png") 0 0 repeat;
+}
+#gallery .visible-sm .parent-circle {
+	background: url("../images/levels/8-gallery/gallery-panel-50percent.png") 0 0 repeat;
+}
+
+#gallery {
+
+}
+
+
+
+/* PARENT ROWS W/ MEDIA ---------- */
+.titleflame {
+/*	margin-top:4em; */
+}
+
+img.title,
+
+img.character {
+	padding-top:50px;
+}
+
+#blimpo img.character {
+	padding-top:0px;
+}
+
+
+
+/* CHILD ROWS W/ MEDIA ---------- */
+
+.audio-synopsis {
+	min-width:470px;
+}
+
+.buy img {
+	display: block;
+	clear: both;
+	margin-right:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+	-webkit-box-shadow: 2px 2px 2px #666;
+	box-shadow: 2px 2px 2px #666;
+
+	
+} 
+
+.buy  {
+	min-width:150px;
+}
+
+	
+
+/* LOWER SECTIONS ROWS W/ SOCIAL MEDIA, ABOUT, ABOUT AUTHOR DALE BASYE AND HECK SERIES ---------- */
+
+
+
+.navbar-fixed-bottom,
+.navbar-footer {
+	background: #000;
+}
+
+
+#about, #about .parent-circle {
+	text-align:center;
+	margin: 0 auto;
+	background: #000;
+	opacity: 0.7;
+}
+
+#about p, #about h1, #about h2 {
+	margin-left:10em;
+	margin-right:10em;
+	opacity:1.8;
+	
+}
+
+
+
+
+
+
