@@ -40,9 +40,8 @@ section {
 	background: #000;
 	min-height:250px;
 	margin-top:15px;
-	z-index:11; */
-	/*position:relative;*/
-	position: absolute;
+	z-index:11;
+	position:relative;
 }
 
 /*
@@ -61,12 +60,6 @@ img.character {
 }
 */
 
-img.flames {
-	/*vertical-align: bottom;*/
-	/*display:none;*/
-	position: absolute;
-	bottom: 0;
-}
 
 footer {
 	opacity:0.70;
@@ -334,13 +327,11 @@ BOOTSTRAP 3: section#heck container -> row -> column(s)
 #gallery {
 }
 
-/* PARENT ROWS W/ MEDIA ---------- */
+/* PARENT ROWS ---------- */
 .titleflame {
-/*	margin-top:4em; */
 }
 
 img.title,
-
 img.character {
 	padding-top:50px;
 }
@@ -349,7 +340,20 @@ img.character {
 	padding-top:0px;
 }
 
-/* CHILD ROWS W/ MEDIA ---------- */
+/* hacking bootstrap styling for flames-sticky-bottom: */
+/*@media( min-width:768px ) {
+.row {
+	position: relative;
+}
+
+.titleflame {
+	position: absolute;
+	bottom: 0px;
+}
+}*/
+
+
+/* CHILD ROWS ---------- */
 
 .audio-synopsis {
 	min-width:470px;
