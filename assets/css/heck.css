@@ -1,5 +1,5 @@
 /* heck.css
-abstract machines interactive development 
+abstract machines interactive development
 website and illustration by bob dob ( random house publishing )
 writing, and all written content by dale basye
 */
@@ -10,7 +10,8 @@ writing, and all written content by dale basye
 
 html,body {
 	height:100%;
-    background: scroll url('../images/levels/4-fibble/fibble-panel.png') 0 0 repeat;
+  background:
+		scroll url('../images/levels/4-fibble/fibble-panel.png') 0 0 repeat;
 	font-family: 'Droid Sans', sans-serif;
 	color: #fff;
 }
@@ -18,7 +19,7 @@ html,body {
 .container-fluid {
 	height:100%;
 	background: transparent;
-	padding-top:0px;   
+	padding-top:0px;
 }
 
 a {
@@ -28,26 +29,22 @@ a {
 a:hover, a:active {
 	color: #ddd;
 	text-decoration:none;
-	
 }
 
 /*
-
 section {
-	padding-top:0px;  
+	padding-top:0px;
 	min-height:calc(100% - 1px);
 }
 */
 
-
 .row {
 	background: #000;
 	min-height:250px;
-	margin-top:15px; 
+	margin-top:15px;
 	z-index:11; */
 	position:relative;
 }
-
 
 /*
 img.title {
@@ -65,11 +62,13 @@ img.character {
 }
 */
 
-
+img.flames {
+	/*vertical-align: bottom;*/
+	/*display:none;*/
+}
 
 footer {
-	opacity:0.85;
-
+	opacity:0.70;
 	background: #000;
 	color:#ddd;
 	min-height:100px;
@@ -86,10 +85,6 @@ footer .nav>li>a:hover {
 	background-color:transparent;
 	color:#fff;
 }
-
-
-
-
 
 a.toplink {
 display: block;
@@ -113,12 +108,7 @@ a.toplink:active {
 	bottom: 15px;
 }
 
-
-
-
-
 /* top menu ------------------------- */
-
 
 /* image menu artwork */
  /*
@@ -132,16 +122,17 @@ license: MIT
 author: bootply.com
 */
 
-
 .icon-bar {
 	background-color:#000;
 }
+
 .navbar-trans {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	width:100%;
-	background: scroll url('../images/levels/4-fibble/fibble-panel.png') 0 0 repeat; 
+	background:
+		scroll url('../images/levels/4-fibble/fibble-panel.png') 0 0 repeat;
 	background: #000;
 }
 
@@ -149,11 +140,9 @@ author: bootply.com
 /*	display:block;
 	clear:both; --- VERTICAL --- */
 	float: right;
-} 
-
+}
 
 .navbar-trans li>a {}
-
 
 /* hovering transitions animation menu: */
 .navbar-trans li>a:hover,.navbar-trans li>a:focus,.navbar-trans li.active {
@@ -163,21 +152,16 @@ author: bootply.com
 	-webkit-transition-timing-function: all 1s ease-in-out;
 }
 
-
 .navbar-trans .form-control:focus {
 border-color: #eee;
 outline: 0;
--webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+-webkit-box-shadow:
+	inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+box-shadow:
+	inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
 }
 
-
 /* end MIT Bootply CSS ------ */
-
-
-
-
-
 
 .navbar-trans a { /* font awesome */
 	color:#f81414;
@@ -187,22 +171,17 @@ box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
 	color: #ddd;
 }
 
-
 .navbar-fixed-top li a {
 	width:40px;
 	height:55px;
-	text-indent: -99999px;	
+	text-indent: -99999px;
 	opacity: 0.6;
 }
-
 
 .navbar-fixed-top li.fa-buttonz a {
 	text-indent: 0px;
 	opacity: 1.0;
 }
-
-
-
 
 li#low-menu a {
 	background: url("../images/levels/menu-how-low.png") 0px -1px repeat;
@@ -211,12 +190,15 @@ li#low-menu a {
 li#heck-menu a {
 	background: url("../images/levels/menu-artwork-tiny.png") 0 0 no-repeat;
 }
+
 li#heck-menu a:hover {
 /*	background: url("../images/levels/menu-artwork.png") -92px 0 repeat-x; */
 }
+
 li#rapacia-menu a {
 	background: url("../images/levels/menu-artwork-tiny.png") 0 -60px no-repeat;
 }
+
 li#blimpo-menu a {
 	background: url("../images/levels/menu-artwork-tiny.png") 0 -117px no-repeat;
 }
@@ -234,10 +216,10 @@ li#wise-acres-menu a {
 }
 
 li#about-heck-menu a {
-	background: url("../images/levels/about-menu-books.png") 0 0 no-repeat;	
+	background: url("../images/levels/about-menu-books.png") 0 0 no-repeat;
 }
 li#about-author-menu a {
-	background: url("../images/levels/about-menu-author.png") 0 0 no-repeat;	
+	background: url("../images/levels/about-menu-author.png") 0 0 no-repeat;
 }
 
 li.fa-buttonz a, li.fa-buttonz a:hover
@@ -247,9 +229,7 @@ li.fa-buttonz a, li.fa-buttonz a:hover
 	padding:0px;
 }
 
-
-
-/*___________________ HECK LEVELS 
+/* -------------------- HECK LEVELS:
 book 1: Heck Where the Bad Kids Go
 book 2: rapacia
 book 3: blimpo
@@ -259,7 +239,6 @@ book 6: precocia
 book 7: wise acres
 
 BOOTSTRAP 3: section#heck container -> row -> column(s)
-
 */
 
 /* PARENT ROWS ---------- */
@@ -283,67 +262,75 @@ BOOTSTRAP 3: section#heck container -> row -> column(s)
 }
 
 #rapacia .child-circle {
-	background: url("../images/levels/2-rapacia/rapacia-bottom-panel.png") 0 0 repeat;
+	background:
+		url("../images/levels/2-rapacia/rapacia-bottom-panel.png") 0 0 repeat;
 }
 
 #blimpo .parent-circle {
-	background: url("../images/levels/3-blimpo/blimpo-panel.png") 0 0 repeat;
+	background:
+		url("../images/levels/3-blimpo/blimpo-panel.png") 0 0 repeat;
 }
 
 #blimpo .child-circle {
-	background: url("../images/levels/3-blimpo/blimpo-bottom-panel.png") 0 0 repeat;
+	background:
+		url("../images/levels/3-blimpo/blimpo-bottom-panel.png") 0 0 repeat;
 }
 
 #fibble .parent-circle {
-	background: url("../images/levels/4-fibble/fibble-panel.png") 0 0 repeat;
+	background:
+		url("../images/levels/4-fibble/fibble-panel.png") 0 0 repeat;
 }
 
 #fibble .child-circle {
-	background: url("../images/levels/4-fibble/fibble-bottom-panel.png") 0 0 repeat;
+	background:
+		url("../images/levels/4-fibble/fibble-bottom-panel.png") 0 0 repeat;
 }
 
 #snivel .parent-circle  {
-	background: url("../images/levels/5-snivel/snivel-panel.png") 0 0 repeat;
+	background:
+		url("../images/levels/5-snivel/snivel-panel.png") 0 0 repeat;
 }
 
 #snivel .child-circle  {
-	background: url("../images/levels/5-snivel/snivel-bottom-panel.png") 0 0 repeat;
+	background:
+		url("../images/levels/5-snivel/snivel-bottom-panel.png") 0 0 repeat;
 }
 
 #precocia .parent-circle {
-	background: url("../images/levels/6-precocia/precocia-panel.png") 0 0 repeat;
+	background:
+		url("../images/levels/6-precocia/precocia-panel.png") 0 0 repeat;
 }
 
 #precocia .child-circle {
-	background: url("../images/levels/6-precocia/precocia-bottom-panel.png") 0 0 repeat;
+	background:
+		url("../images/levels/6-precocia/precocia-bottom-panel.png") 0 0 repeat;
 }
 
 #wise-acres .parent-circle {
-	background: url("../images/levels/7-wise-acres/wise-acres-panel.png") 0 0 repeat;
+	background:
+		url("../images/levels/7-wise-acres/wise-acres-panel.png") 0 0 repeat;
 }
 
 #wise-acres .child-circle {
-	background: url("../images/levels/7-wise-acres/wise-acres-bottom-panel.png") 0 0 repeat;
+	background:
+		url("../images/levels/7-wise-acres/wise-acres-bottom-panel.png") 0 0 repeat;
 }
-
-
-
 
 #gallery .parent-circle {
-	background: url("../images/levels/8-gallery/gallery-panel.png") 0 0 repeat;
+	background:
+		url("../images/levels/8-gallery/gallery-panel.png") 0 0 repeat;
 }
 #gallery .visible-md .parent-circle {
-	background: url("../images/levels/8-gallery/gallery-panel-75percent.png") 0 0 repeat;
+	background:
+		url("../images/levels/8-gallery/gallery-panel-75percent.png") 0 0 repeat;
 }
 #gallery .visible-sm .parent-circle {
-	background: url("../images/levels/8-gallery/gallery-panel-50percent.png") 0 0 repeat;
+	background:
+		url("../images/levels/8-gallery/gallery-panel-50percent.png") 0 0 repeat;
 }
 
 #gallery {
-
 }
-
-
 
 /* PARENT ROWS W/ MEDIA ---------- */
 .titleflame {
@@ -360,8 +347,6 @@ img.character {
 	padding-top:0px;
 }
 
-
-
 /* CHILD ROWS W/ MEDIA ---------- */
 
 .audio-synopsis {
@@ -376,25 +361,18 @@ img.character {
 	margin-bottom:10px;
 	-webkit-box-shadow: 2px 2px 2px #666;
 	box-shadow: 2px 2px 2px #666;
-
-	
-} 
+}
 
 .buy  {
 	min-width:150px;
 }
 
-	
-
 /* LOWER SECTIONS ROWS W/ SOCIAL MEDIA, ABOUT, ABOUT AUTHOR DALE BASYE AND HECK SERIES ---------- */
-
-
 
 .navbar-fixed-bottom,
 .navbar-footer {
 	background: #000;
 }
-
 
 #about, #about .parent-circle {
 	text-align:center;
@@ -407,11 +385,4 @@ img.character {
 	margin-left:10em;
 	margin-right:10em;
 	opacity:1.8;
-	
 }
-
-
-
-
-
-
