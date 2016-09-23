@@ -328,8 +328,6 @@ BOOTSTRAP 3: section#heck container -> row -> column(s)
 }
 
 /* PARENT ROWS ---------- */
-.titleflame {
-}
 
 img.title,
 img.character {
@@ -346,10 +344,6 @@ img.character {
 	position: relative;
 }
 
-.titleflame {
-	position: absolute;
-	bottom: 0px;
-}
 }*/
 
 
