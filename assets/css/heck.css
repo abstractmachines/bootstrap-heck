@@ -4,14 +4,12 @@ website and illustration by bob dob ( random house publishing )
 writing, and all written content by dale basye
 */
 
-
-
 /* ******** HECK STRUCTURE ********* */
 
 html,body {
 	height:100%;
-  background:
-		scroll url('../images/levels/4-fibble/fibble-panel.png') 0 0 repeat;
+  background: #000;
+	/*background:	scroll url('../images/levels/4-fibble/fibble-panel.png') 0 0 repeat;*/
 	font-family: 'Droid Sans', sans-serif;
 	color: #fff;
 }
@@ -43,7 +41,8 @@ section {
 	min-height:250px;
 	margin-top:15px;
 	z-index:11; */
-	position:relative;
+	/*position:relative;*/
+	position: absolute;
 }
 
 /*
@@ -65,6 +64,8 @@ img.character {
 img.flames {
 	/*vertical-align: bottom;*/
 	/*display:none;*/
+	position: absolute;
+	bottom: 0;
 }
 
 footer {
@@ -254,7 +255,8 @@ BOOTSTRAP 3: section#heck container -> row -> column(s)
 }
 
 #heck .child-circle {
-	background: url("../images/levels/1-heck/heck-bottom-panel.png") 0 0 repeat;
+	/*background: url("../images/levels/1-heck/heck-bottom-panel.png") 0 0 repeat;*/
+	background: #000;
 }
 
 #rapacia .parent-circle {
@@ -263,7 +265,7 @@ BOOTSTRAP 3: section#heck container -> row -> column(s)
 
 #rapacia .child-circle {
 	background:
-		url("../images/levels/2-rapacia/rapacia-bottom-panel.png") 0 0 repeat;
+		/*url("../images/levels/2-rapacia/rapacia-bottom-panel.png") 0 0 repeat;*/
 }
 
 #blimpo .parent-circle {
@@ -272,8 +274,8 @@ BOOTSTRAP 3: section#heck container -> row -> column(s)
 }
 
 #blimpo .child-circle {
-	background:
-		url("../images/levels/3-blimpo/blimpo-bottom-panel.png") 0 0 repeat;
+	/*background:
+		url("../images/levels/3-blimpo/blimpo-bottom-panel.png") 0 0 repeat;*/
 }
 
 #fibble .parent-circle {
@@ -282,8 +284,8 @@ BOOTSTRAP 3: section#heck container -> row -> column(s)
 }
 
 #fibble .child-circle {
-	background:
-		url("../images/levels/4-fibble/fibble-bottom-panel.png") 0 0 repeat;
+	/*background:
+		url("../images/levels/4-fibble/fibble-bottom-panel.png") 0 0 repeat;*/
 }
 
 #snivel .parent-circle  {
@@ -292,8 +294,8 @@ BOOTSTRAP 3: section#heck container -> row -> column(s)
 }
 
 #snivel .child-circle  {
-	background:
-		url("../images/levels/5-snivel/snivel-bottom-panel.png") 0 0 repeat;
+	/*background:
+		url("../images/levels/5-snivel/snivel-bottom-panel.png") 0 0 repeat;*/
 }
 
 #precocia .parent-circle {
@@ -302,8 +304,8 @@ BOOTSTRAP 3: section#heck container -> row -> column(s)
 }
 
 #precocia .child-circle {
-	background:
-		url("../images/levels/6-precocia/precocia-bottom-panel.png") 0 0 repeat;
+	/*background:
+		url("../images/levels/6-precocia/precocia-bottom-panel.png") 0 0 repeat;*/
 }
 
 #wise-acres .parent-circle {
@@ -312,8 +314,8 @@ BOOTSTRAP 3: section#heck container -> row -> column(s)
 }
 
 #wise-acres .child-circle {
-	background:
-		url("../images/levels/7-wise-acres/wise-acres-bottom-panel.png") 0 0 repeat;
+	/*background:
+		url("../images/levels/7-wise-acres/wise-acres-bottom-panel.png") 0 0 repeat;*/
 }
 
 #gallery .parent-circle {
@@ -351,6 +353,7 @@ img.character {
 
 .audio-synopsis {
 	min-width:470px;
+	color: #FFF;
 }
 
 .buy img {
