@@ -44,23 +44,6 @@ section {
 	position:relative;
 }
 
-/*
-img.title {
-	position: absolute;
-	top:100px;
-}
-
-img.flames {
-	position: absolute;
-	top:430px;
-}
-img.character {
-	position: absolute;
-	top:70px;
-}
-*/
-
-
 footer {
 	opacity:0.70;
 	background: #000;
@@ -346,6 +329,9 @@ img.character {
 
 }*/
 
+.bookcover .visible-xs {
+	display: none;
+}
 
 /* CHILD ROWS ---------- */
 
