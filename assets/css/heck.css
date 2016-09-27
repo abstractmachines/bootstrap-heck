@@ -1,10 +1,8 @@
 /* heck.css
-abstract machines interactive development
-website and illustration by bob dob ( random house publishing )
+website by amanda falke / abstract machines development
+illustration by bob dob ( random house publishing )
 writing, and all written content by dale basye
 */
-
-/* ******** HECK STRUCTURE ********* */
 
 html,body {
 	height:100%;
@@ -12,6 +10,11 @@ html,body {
 	/*background:	scroll url('../images/levels/4-fibble/fibble-panel.png') 0 0 repeat;*/
 	font-family: 'Droid Sans', sans-serif;
 	color: #fff;
+}
+
+/* for fixed navbar per bootstrap docs */
+body {
+	padding-top:50px;
 }
 
 .container-fluid {
@@ -105,13 +108,17 @@ author: bootply.com
 }
 
 .navbar-trans {
-	text-align: center;
+	/*text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width:100%;
-	background:
-		scroll url('../images/levels/4-fibble/fibble-panel.png') 0 0 repeat;
+	width:100%;*/
+	/*background:
+		scroll url('../images/levels/4-fibble/fibble-panel.png') 0 0 repeat;*/
 	background: #000;
+}
+
+.navbar-toggle .icon-bar {
+  color: #FFF;
 }
 
 .navbar-trans .navbar-fixed-top {
