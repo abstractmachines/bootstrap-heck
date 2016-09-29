@@ -255,25 +255,8 @@ BOOTSTRAP 3: section#heck container -> row -> column(s)
 	position: relative;
 }*/
 
-#heck .visible-md .parent-circle {
-	background: url("../images/levels/1-heck/heck-panel-75percent.png") 0 0 repeat;
-}
-#heck .visible-sm .parent-circle {
-	background: url("../images/levels/1-heck/heck-panel-50percent.png") 0 0 repeat;
-}
-
-#heck .child-circle {
-	/*background: url("../images/levels/1-heck/heck-bottom-panel.png") 0 0 repeat;*/
-	background: #000;
-}
-
 #rapacia .parent-circle {
 	background: url("../images/levels/2-rapacia/rapacia-panel.png") 0 0 repeat;
-}
-
-#rapacia .child-circle {
-	background:
-		/*url("../images/levels/2-rapacia/rapacia-bottom-panel.png") 0 0 repeat;*/
 }
 
 #blimpo .parent-circle {
@@ -281,19 +264,9 @@ BOOTSTRAP 3: section#heck container -> row -> column(s)
 		url("../images/levels/3-blimpo/blimpo-panel.png") 0 0 repeat;
 }
 
-#blimpo .child-circle {
-	/*background:
-		url("../images/levels/3-blimpo/blimpo-bottom-panel.png") 0 0 repeat;*/
-}
-
 #fibble .parent-circle {
 	background:
 		url("../images/levels/4-fibble/fibble-panel.png") 0 0 repeat;
-}
-
-#fibble .child-circle {
-	/*background:
-		url("../images/levels/4-fibble/fibble-bottom-panel.png") 0 0 repeat;*/
 }
 
 #snivel .parent-circle  {
@@ -301,19 +274,9 @@ BOOTSTRAP 3: section#heck container -> row -> column(s)
 		url("../images/levels/5-snivel/snivel-panel.png") 0 0 repeat;
 }
 
-#snivel .child-circle  {
-	/*background:
-		url("../images/levels/5-snivel/snivel-bottom-panel.png") 0 0 repeat;*/
-}
-
 #precocia .parent-circle {
 	background:
 		url("../images/levels/6-precocia/precocia-panel.png") 0 0 repeat;
-}
-
-#precocia .child-circle {
-	/*background:
-		url("../images/levels/6-precocia/precocia-bottom-panel.png") 0 0 repeat;*/
 }
 
 #wise-acres .parent-circle {
@@ -321,25 +284,19 @@ BOOTSTRAP 3: section#heck container -> row -> column(s)
 		url("../images/levels/7-wise-acres/wise-acres-panel.png") 0 0 repeat;
 }
 
-#wise-acres .child-circle {
-	/*background:
-		url("../images/levels/7-wise-acres/wise-acres-bottom-panel.png") 0 0 repeat;*/
-}
-
 #gallery .parent-circle {
 	background:
 		url("../images/levels/8-gallery/gallery-panel.png") 0 0 repeat;
 }
+
 #gallery .visible-md .parent-circle {
 	background:
 		url("../images/levels/8-gallery/gallery-panel-75percent.png") 0 0 repeat;
 }
+
 #gallery .visible-sm .parent-circle {
 	background:
 		url("../images/levels/8-gallery/gallery-panel-50percent.png") 0 0 repeat;
-}
-
-#gallery {
 }
 
 /* PARENT ROWS ---------- */
