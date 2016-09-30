@@ -7,7 +7,6 @@ writing, and all written content by dale basye
 html,body {
 	height:100%;
   background: #000;
-	/*background:	scroll url('../images/levels/4-fibble/fibble-panel.png') 0 0 repeat;*/
 	font-family: 'Droid Sans', sans-serif;
 	color: #fff;
 }
@@ -16,6 +15,7 @@ html,body {
 	height:100%;
 	background: transparent;
 	padding-top:0px;
+	padding-bottom: 0px;
 }
 
 a {
@@ -27,28 +27,21 @@ a:hover, a:active {
 	text-decoration:none;
 }
 
-/*
-section {
-	padding-top:0px;
-	min-height:calc(100% - 1px);
-}
-*/
-
 .row {
 	background: #000;
-	min-height:250px;
-	margin-top:15px;
+	/*min-height:250px;*/
+	/*margin-top:15px;*/
 	/*z-index:9;*/
 	position:relative;
 }
 
 footer {
-	opacity:0.70;
+	opacity:0.80;
 	background: #000;
 	color:#ddd;
-	min-height:100px;
-	padding-top:8em;
-	padding-bottom:10em;
+	/*min-height:100px;*/
+	/*padding-top:8em;*/
+	/*padding-bottom:10em;*/
 	z-index:10;
 }
 
@@ -103,10 +96,10 @@ author: bootply.com
 }
 
 .navbar-trans {
-	/*text-align: center;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width:100%;*/
+	width:100%;
 	/*background:
 		scroll url('../images/levels/4-fibble/fibble-panel.png') 0 0 repeat;*/
 	background: #000;
@@ -243,17 +236,84 @@ book 7: wise acres
 BOOTSTRAP 3: section#heck container -> row -> column(s)
 */
 
-/* PARENT ROWS ---------- */
+/* PARENT ROWS ------------------------------- */
+
+/* STICKY FLAMES ---------- */
+
+/* xs breakpoint sticky flames */
+@media( max-width:768px ) {
+img.title {
+	padding-top: 2em;
+}
+}
+
+/* sm breakpoint sticky flames */
+@media( min-width:768px ) {
+img.title {
+	/*padding-top: 1em;*/
+}
+img.flames {
+	padding-top:6em;
+	/*background-color: red;*/
+}
+section#heck img.flames {
+	padding-top:2.2em;
+	/*background-color:yellow;*/
+	/*margin-bottom:-5px;*/
+}
+section#rapacia img.flames {
+	padding-top:5em;
+	/*background-color: yellow;*/
+}
+}
+
+/* md breakpoint sticky flames */
+@media( min-width:992px ) {
+img.title {
+	padding-top: 4em;
+}
+img.flames {
+	padding-top:5em;
+	/*background-color: blue;*/
+}
+section#heck img.flames {
+	padding-top:0em;
+	/*background-color:yellow;*/
+	/*margin-bottom:-5px;*/
+}
+section#rapacia img.flames {
+	padding-top:4em;
+	/*background-color: yellow;*/
+}
+}
+
+@media( min-width:1200px ) {
+img.flames {
+	padding-top:8em;
+	background: transparent;
+	/*background-color: green;*/
+}
+section#heck img.flames {
+	padding-top:1.6em;
+	/*background-color:yellow;*/
+	/*margin-bottom:-5px;*/
+}
+section#rapacia img.flames {
+	padding-top:7em;
+	/*background-color: yellow;*/
+}
+}
+
+/*@media( min-width:1400px ) {
+img.flames {
+	padding-top:5.7em;
+	background-color: pink;
+}
+}*/
 
 #heck .parent-circle {
 	background: url("../images/levels/1-heck/heck-panel.png") 0 0 repeat;
 }
-
-
-/*@media( max-width:768px ) {
-.row {
-	position: relative;
-}*/
 
 #rapacia .parent-circle {
 	background: url("../images/levels/2-rapacia/rapacia-panel.png") 0 0 repeat;
@@ -301,10 +361,10 @@ BOOTSTRAP 3: section#heck container -> row -> column(s)
 
 /* PARENT ROWS ---------- */
 
-img.title,
+/*img.title,
 img.character {
 	padding-top:50px;
-}
+}*/
 
 #blimpo img.character {
 	padding-top:0px;
