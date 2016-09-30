@@ -117,7 +117,7 @@
             <a href="http://www.amazon.com/Dale-E.-Basye/e/B001JRREZM" target="_blank">
               <i class="fa fa-shopping-cart fa-3x"></i>
             </a></li>
-	        <li class="hidden-xs fa-hidden-xs buttonz">
+	        <li class="hidden-xs fa-buttonz">
             <a href="https://www.facebook.com/pages/Heck-Where-the-Bad-Kids-Go/111654098850705" target="_blank">
               <i class="fa fa-facebook-square fa-3x"></i>
             </a></li>
@@ -144,9 +144,6 @@
   <div class="container-fluid">
 
    	<div class="row parent-circle heck-rss">
-
-      <script id="feed-1475042194010956" type="text/javascript"
-        src="http://rss.bloople.net/?url=https%3A%2F%2Fwherethebadkidsgo.wordpress.com%2Ffeed%2F&detail=10&limit=3&showtitle=false&type=js&id=1475042194010956"></script>
 
     </div> <!-- .parent-circle .row -->
 
@@ -1365,57 +1362,57 @@
 
 </footer>
 
-        <!-- JavaScript jQuery code from Bootply.com editor  -->
-
 <script type='text/javascript'>
+//
+// $(document).ready(function()
+// {
+//   /* activate scrollspy menu */
+// 	$('body').scrollspy
+//    ({
+//   	target: '#navbar-collapsible',
+//   	offset: 50
+// 	  }
+// 	  );
+//
+//   /* smooth scrolling sections */
+//   $('a[href*=#]:not([href=#])').click(function() {
+//
+//    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+//
+//      var target = $(this.hash);
+//
+//      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+//
+//      if (target.length)
+//      {
+//        $('html,body').animate
+//        ({
+//
+//           scrollTop: target.offset().top - 80
+//
+//           },
+//
+//         1000);
+//
+//         return false;
+//       }
+//     }
+//   });
+// });
 
-$(document).ready(function()
-		{
-     	/* activate scrollspy menu */
-		$('body').scrollspy({
-  		target: '#navbar-collapsible',
-  		offset: 80
-		}
-	);
+</script>
 
-/* smooth scrolling sections */
-$('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top - 50
-        }, 1000);
-        return false;
-      }
-    }
+<script type="text/javascript">
+// http://jsfiddle.net/Pm3cj/1/
+jQuery(document).ready(function(){
+
+$(".button").on("click", function(e) {
+    $(document).scrollTop($(this).parent().next().offset().top);
+  // $(this).parent().next() // this is the next div container.
+    return false;
 });
-        });
 
- </script>
-
-
-
-<script type='text/javascript'>
-/*
-$(document).ready(function() {
-
-$('#accordion').on('shown.bs.collapse', function (e) {
-   var id = $(e.target).prev().find("[id]")[0].id;
-   navigateToElement(id);
-})
-
-
-function navigateToElement(id) {
-    $('html, body').animate({
-        scrollTop: $("#" + id).offset().top
-    }, 1000);
-}
-        });
-
-*/
- </script>
+</script>
 
 
 <script type="text/javascript">
@@ -1423,39 +1420,16 @@ function navigateToElement(id) {
 jQuery(document).ready(function(){
 
 // wait until window is loaded (images, stylesheets, links etc...)
- $(window).on("load", function() {
-    $("ul.nav li a").animate({margin: '6'},300);
- //   $("#footer").animate({height: '8em',opacity:'0.7'},500);
+ $(window).on("load", function()
+ {
+   $("ul.nav li a").animate({margin: '6'},300);
 
-  });
+   $("#footer").animate({height: '8em',opacity:'0.7'},300);
+ });
 
 });
 </script>
 
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-          ga('create', 'UA-11-notanumber-1', 'wherethebadkidsgo.com');
-          ga('send', 'pageview');
-        </script>
-        <!-- Quantcast Tag -->
-        <script type="text/javascript">
-        var _qevents = _qevents || [];
-
-        (function() {
-        var elem = document.createElement('script');
-        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
-        elem.async = true;
-        elem.type = "text/javascript";
-        var scpt = document.getElementsByTagName('script')[0];
-        scpt.parentNode.insertBefore(elem, scpt);
-        })();
-
-        _qevents.push({
-        qacct:"p-0cXb7ATGU9nz5"
-        });
-        </script>
     </body>
+
 </html>

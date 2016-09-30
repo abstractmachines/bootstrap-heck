@@ -13,9 +13,12 @@ html,body {
 
 .container-fluid {
 	height:100%;
+	width: 100%;
 	background: transparent;
 	padding-top:0px;
 	padding-bottom: 0px;
+	padding-right: 4em;
+	overflow: scroll;
 }
 
 a {
@@ -29,10 +32,8 @@ a:hover, a:active {
 
 .row {
 	background: #000;
-	/*min-height:250px;*/
-	/*margin-top:15px;*/
-	/*z-index:9;*/
 	position:relative;
+	z-index: 0;
 }
 
 footer {
@@ -42,7 +43,7 @@ footer {
 	/*min-height:100px;*/
 	/*padding-top:8em;*/
 	/*padding-bottom:10em;*/
-	z-index:10;
+	z-index:3;
 }
 
 footer .nav>li>a {
@@ -206,6 +207,7 @@ li.fa-buttonz a, li.fa-buttonz a:hover
 */
 
 .heck-rss channel title {
+	color: blue;
    display:block;
    padding:0.4em 0.2em;
    color:#FFF;
@@ -264,14 +266,14 @@ li.fa-buttonz a, li.fa-buttonz a:hover
  Characters, book covers, titleflame ---------- */
 .bookcover {
 	padding-right: 2em;
-	z-index: 11;
+	z-index: 1;
 }
 
 .titleflame {
 	margin-left: 0em;
 	padding-left: 2em;
 	padding-right: 1em;
-	z-index: 12;
+	z-index: 2;
 }
 
 .titleflame-xs {
@@ -283,7 +285,7 @@ li.fa-buttonz a, li.fa-buttonz a:hover
 .bookcharacters {
 	margin-left: 0em;
 	padding-left: 0em;
-	z-index: 11;
+	z-index: 1;
 }
 
 img.character {
@@ -351,6 +353,9 @@ section#heck img.title {
 }
 section#heck img.flames {
 	padding-top:0.5em;
+}
+section#heck img.character {
+	padding-top: 3em;
 }
 section#fibble img.character,
 section#precocia img.character {
