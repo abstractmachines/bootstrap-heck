@@ -223,20 +223,7 @@ li.fa-buttonz a, li.fa-buttonz a:hover
 }
 
 
-
-/* -------------------- HECK LEVELS:
-book 1: Heck Where the Bad Kids Go
-book 2: rapacia
-book 3: blimpo
-book 4: fibble
-book 5: snivel
-book 6: precocia
-book 7: wise acres
-
-BOOTSTRAP 3: section#heck container -> row -> column(s)
-*/
-
-/* PARENT ROWS ------------------------------------------------- */
+/* PARENT ROWS --- Heck Circles / Levels ------------------------ */
 
 /* STICKY FLAMES  bootstrap 3 breakpoints ---- */
 
@@ -269,7 +256,7 @@ img.flames {
 	padding-top:4em;
 }
 section#heck img.flames {
-	padding-top:1em;
+	padding-top:0em;
 }
 }
 
@@ -296,6 +283,7 @@ img.flames {
 }
 
 /* Parent Circle Rows ---- */
+
 #heck .parent-circle {
 	background: url("../images/levels/1-heck/heck-panel.png") 0 0 repeat;
 }
@@ -329,27 +317,13 @@ img.flames {
 		url("../images/levels/7-wise-acres/wise-acres-panel.png") 0 0 repeat;
 }
 
-#gallery .parent-circle {
-	background:
-		url("../images/levels/8-gallery/gallery-panel.png") 0 0 repeat;
+/* Parent ROWS:
+ Characters, book covers, titleflame ---------- */
+.characters, .bookcovers, .titleflame {
+	padding-left: 1em;
+	padding-right
 }
 
-#gallery .visible-md .parent-circle {
-	background:
-		url("../images/levels/8-gallery/gallery-panel-75percent.png") 0 0 repeat;
-}
-
-#gallery .visible-sm .parent-circle {
-	background:
-		url("../images/levels/8-gallery/gallery-panel-50percent.png") 0 0 repeat;
-}
-
-/* PARENT ROWS ---------- */
-
-/*img.title,
-img.character {
-	padding-top:50px;
-}*/
 
 .titleflame-xs {
 	display: block;
