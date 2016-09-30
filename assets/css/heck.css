@@ -13,26 +13,40 @@ html,body {
 
 .container-fluid {
 	height:100%;
+	width: 100%;
 	background: transparent;
 	padding-top:0px;
 	padding-bottom: 0px;
+	padding-right: 4em;
+	overflow: scroll;
 }
 
-a {
+a, h1, h2, h3, h4, h5, h6 {
 	color: #f81414;
 }
 
-a:hover, a:active {
+h4, h5 {
+	font-style: italic;
+}
+
+span {
+	font-style: italic;
+	color: gray;
+}
+
+nav li.title {
+	margin-right: 4em;
+}
+
+a:hover, a:active, .heck-rss a:hover {
 	color: #ddd;
 	text-decoration:none;
 }
 
 .row {
 	background: #000;
-	/*min-height:250px;*/
-	/*margin-top:15px;*/
-	/*z-index:9;*/
 	position:relative;
+	z-index: 0;
 }
 
 footer {
@@ -42,7 +56,7 @@ footer {
 	/*min-height:100px;*/
 	/*padding-top:8em;*/
 	/*padding-bottom:10em;*/
-	z-index:10;
+	z-index:3;
 }
 
 footer .nav>li>a {
@@ -202,114 +216,58 @@ li.fa-buttonz a, li.fa-buttonz a:hover
 	padding:0px;
 }
 
-/* -------------------- RSS FEEDS:
-*/
+/* -------------------- RSS FEEDS: */
+.heck-rss {
+	margin-top: 3em;
+	margin-left: 6em;
+	text-align: center;
+	background: url("../images/levels/3-blimpo/blimpo-balloon-tiny.png") 0 0 no-repeat;
+	background-position: bottom left;
 
-.heck-rss channel title {
-   display:block;
-   padding:0.4em 0.2em;
-   color:#FFF;
-   border-bottom:1px solid black;
-   font-weight:bold;
-   font-size:140%;
-   background-color:#4483C7;
-}
-.heck-rss channel description {
-   display:block;
-   float:left;
-   font-size:130%;
-   font-weight:bold;
-   margin:0.5em;
+	/*background: url("../images/levels/flames-red-75percent.png") 0 0 no-repeat;
+	background-position: bottom left;*/
+
+	/*background: url("../images/levels/1-heck/heck-title-demon-50percent.png") 0 0 no-repeat;*/
 }
 
-
-
-/* -------------------- HECK LEVELS:
-book 1: Heck Where the Bad Kids Go
-book 2: rapacia
-book 3: blimpo
-book 4: fibble
-book 5: snivel
-book 6: precocia
-book 7: wise acres
-
-BOOTSTRAP 3: section#heck container -> row -> column(s)
-*/
-
-/* PARENT ROWS ------------------------------- */
-
-/* STICKY FLAMES ---------- */
-
-/* xs breakpoint sticky flames */
-@media( max-width:768px ) {
-img.title {
-	padding-top: 2em;
-}
+.heck-rss a {
+	color: #FFF;
 }
 
-/* sm breakpoint sticky flames */
-@media( min-width:768px ) {
-img.title {
-	/*padding-top: 1em;*/
-}
-img.flames {
-	padding-top:6em;
-	/*background-color: red;*/
-}
-section#heck img.flames {
-	padding-top:2.2em;
-	/*background-color:yellow;*/
-	/*margin-bottom:-5px;*/
-}
-section#rapacia img.flames {
-	padding-top:5em;
-	/*background-color: yellow;*/
-}
+.heck-rss ul {
+	list-style: none;
 }
 
-/* md breakpoint sticky flames */
-@media( min-width:992px ) {
-img.title {
-	padding-top: 4em;
-}
-img.flames {
-	padding-top:5em;
-	/*background-color: blue;*/
-}
-section#heck img.flames {
-	padding-top:0em;
-	/*background-color:yellow;*/
-	/*margin-bottom:-5px;*/
-}
-section#rapacia img.flames {
-	padding-top:4em;
-	/*background-color: yellow;*/
-}
+
+
+
+.feedburnerFeedBlock {
 }
 
-@media( min-width:1200px ) {
-img.flames {
-	padding-top:8em;
-	background: transparent;
-	/*background-color: green;*/
-}
-section#heck img.flames {
-	padding-top:1.6em;
-	/*background-color:yellow;*/
-	/*margin-bottom:-5px;*/
-}
-section#rapacia img.flames {
-	padding-top:7em;
-	/*background-color: yellow;*/
-}
+.feedburnerFeedBlock p {
+		margin-bottom: 2em;
+
 }
 
-/*@media( min-width:1400px ) {
-img.flames {
-	padding-top:5.7em;
-	background-color: pink;
+.feedburnerFeedBlock  {
+	color: gray;
+	font-style: italic;
 }
-}*/
+
+.feedburnerFeedBlock .headline {
+	font-style: normal;
+	margin-bottom: 0px;
+}
+
+.feedburnerFeedBlock a img {
+	display: none;
+}
+
+
+
+/* PARENT ROWS --- Heck Circles / Levels ------------------------ */
+
+/* Parent Circle Rows ---- */
 
 #heck .parent-circle {
 	background: url("../images/levels/1-heck/heck-panel.png") 0 0 repeat;
@@ -344,44 +302,153 @@ img.flames {
 		url("../images/levels/7-wise-acres/wise-acres-panel.png") 0 0 repeat;
 }
 
-#gallery .parent-circle {
-	background:
-		url("../images/levels/8-gallery/gallery-panel.png") 0 0 repeat;
+/* Parent ROWS:
+ Characters, book covers, titleflame ---------- */
+.bookcover {
+	padding-right: 2em;
+	z-index: 1;
 }
 
-#gallery .visible-md .parent-circle {
-	background:
-		url("../images/levels/8-gallery/gallery-panel-75percent.png") 0 0 repeat;
+.titleflame {
+	margin-left: 0em;
+	padding-left: 2em;
+	padding-right: 1em;
+	z-index: 2;
 }
-
-#gallery .visible-sm .parent-circle {
-	background:
-		url("../images/levels/8-gallery/gallery-panel-50percent.png") 0 0 repeat;
-}
-
-/* PARENT ROWS ---------- */
-
-/*img.title,
-img.character {
-	padding-top:50px;
-}*/
-
-#blimpo img.character {
-	padding-top:0px;
-}
-
-/* hacking bootstrap styling for flames-sticky-bottom: */
-/*@media( min-width:768px ) {
-.row {
-	position: relative;
-}
-
-}*/
 
 .titleflame-xs {
 	display: block;
 	margin-left:auto;
 	margin-right: auto;
+}
+
+.bookcharacters {
+	margin-left: 0em;
+	padding-left: 0em;
+	z-index: 1;
+}
+
+img.character {
+	padding-top:5em;
+}
+
+section#blimpo img.character {
+	padding-top: 0em;
+}
+
+section#fibble img.character {
+	padding-top:14em;
+}
+
+section#precocia img.character,
+section#wise-acres img.character {
+	padding-top: 13em;
+}
+
+/*
+section#heck img.character {
+padding-top:
+	margin-left: -1em;
+}
+
+section#rapacia img.character {
+	padding-top: 7em;
+	padding-left: 1em;
+	margin-left: 0em;
+}
+
+
+
+
+section#wise-acres img.character {
+	padding-top: 16em;
+}
+
+section#snivel img.character {
+	padding-top: 1em;
+	margin-left: -1em;
+}*/
+
+
+/* STICKY FLAMES  bootstrap 3 breakpoints ---- */
+
+/* xs breakpoint  */
+@media( max-width:768px ) {
+img.title {
+	padding-top: 2em;
+}
+}
+
+/* sm breakpoint */
+@media( min-width:768px ) {
+.heck-rss {
+	padding-top: 70px;
+}
+img.title {
+	padding-top: 4em;
+	}
+img.flames {
+	padding-top:2em;
+	/*background: red;*/
+}
+section#heck img.title {
+	padding-top:2.7em;
+}
+section#heck img.flames {
+	padding-top:0.5em;
+}
+section#heck img.character {
+	padding-top: 3em;
+}
+section#fibble img.character,
+section#precocia img.character {
+	padding-top: 8.8em;
+}
+section#wise-acres img.character {
+	padding-top: 6em;
+}
+section#rapacia img.character {
+	padding-top: 4.5em;
+}
+}
+
+/* md breakpoint */
+@media( min-width:992px ) {
+img.title {
+	padding-top: 7em;
+}
+img.flames {
+	padding-top:2em;
+	/*background: green;*/
+}
+section#heck img.title {
+	padding-top:4em;
+}
+section#heck img.flames {
+	padding-top:1em;
+}
+}
+
+@media( min-width:1200px ) {
+img.title {
+	padding-top: 6em;
+}
+img.flames {
+	padding-top:6em;
+	background: transparent;
+}
+section#heck img.flames {
+	padding-top:2.8em;
+}
+}
+
+@media( min-width:1600px ) {
+img.title {
+	padding-top:6em;
+}
+img.flames {
+	padding-top:6em;
+}
 }
 
 /* CHILD ROWS ---------- */
