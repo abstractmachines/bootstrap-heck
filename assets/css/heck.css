@@ -237,26 +237,34 @@ img.title {
 /* sm breakpoint */
 @media( min-width:768px ) {
 img.title {
-	padding-top: 3em;
+	padding-top: 4em;
 	}
 img.flames {
-	padding-top:3em;
+	padding-top:2em;
+	/*background: red;*/
+}
+section#heck img.title {
+	padding-top:2.7em;
 }
 section#heck img.flames {
-	padding-top:0.3em;
+	padding-top:0.5em;
 }
 }
 
 /* md breakpoint */
 @media( min-width:992px ) {
 img.title {
-	padding-top: 5em;
+	padding-top: 7em;
 }
 img.flames {
+	padding-top:2em;
+	/*background: green;*/
+}
+section#heck img.title {
 	padding-top:4em;
 }
 section#heck img.flames {
-	padding-top:0em;
+	padding-top:1em;
 }
 }
 
@@ -319,10 +327,27 @@ img.flames {
 
 /* Parent ROWS:
  Characters, book covers, titleflame ---------- */
-.characters, .bookcovers, .titleflame {
-	padding-left: 1em;
-	padding-right
+.bookcover {
+	padding-right: 2em;
+	z-index: 11;
 }
+
+.titleflame {
+	margin-left: 0em;
+	padding-left: 2em;
+	padding-right: 1em;
+	z-index: 12;
+}
+
+.bookcharacters {
+	margin-left: -1.5em;
+	padding-left: 0em;
+	z-index: 11;
+}
+
+
+
+
 
 
 .titleflame-xs {
