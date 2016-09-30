@@ -236,81 +236,66 @@ book 7: wise acres
 BOOTSTRAP 3: section#heck container -> row -> column(s)
 */
 
-/* PARENT ROWS ------------------------------- */
+/* PARENT ROWS ------------------------------------------------- */
 
-/* STICKY FLAMES ---------- */
+/* STICKY FLAMES  bootstrap 3 breakpoints ---- */
 
-/* xs breakpoint sticky flames */
+/* xs breakpoint  */
 @media( max-width:768px ) {
 img.title {
 	padding-top: 2em;
 }
 }
 
-/* sm breakpoint sticky flames */
+/* sm breakpoint */
 @media( min-width:768px ) {
 img.title {
-	/*padding-top: 1em;*/
-}
+	padding-top: 3em;
+	}
 img.flames {
-	padding-top:6em;
-	/*background-color: red;*/
+	padding-top:3em;
 }
 section#heck img.flames {
-	padding-top:2.2em;
-	/*background-color:yellow;*/
-	/*margin-bottom:-5px;*/
-}
-section#rapacia img.flames {
-	padding-top:5em;
-	/*background-color: yellow;*/
+	padding-top:0.3em;
 }
 }
 
-/* md breakpoint sticky flames */
+/* md breakpoint */
 @media( min-width:992px ) {
 img.title {
-	padding-top: 4em;
+	padding-top: 5em;
 }
 img.flames {
-	padding-top:5em;
-	/*background-color: blue;*/
+	padding-top:4em;
 }
 section#heck img.flames {
-	padding-top:0em;
-	/*background-color:yellow;*/
-	/*margin-bottom:-5px;*/
-}
-section#rapacia img.flames {
-	padding-top:4em;
-	/*background-color: yellow;*/
+	padding-top:1em;
 }
 }
 
 @media( min-width:1200px ) {
+img.title {
+	padding-top: 6em;
+}
 img.flames {
-	padding-top:8em;
+	padding-top:6em;
 	background: transparent;
-	/*background-color: green;*/
 }
 section#heck img.flames {
-	padding-top:1.6em;
-	/*background-color:yellow;*/
-	/*margin-bottom:-5px;*/
-}
-section#rapacia img.flames {
-	padding-top:7em;
-	/*background-color: yellow;*/
+	padding-top:0.8em;
 }
 }
 
-/*@media( min-width:1400px ) {
+@media( min-width:1600px ) {
+img.title {
+	padding-top:6em;
+}
 img.flames {
-	padding-top:5.7em;
-	background-color: pink;
+	padding-top:6em;
 }
-}*/
+}
 
+/* Parent Circle Rows ---- */
 #heck .parent-circle {
 	background: url("../images/levels/1-heck/heck-panel.png") 0 0 repeat;
 }
@@ -364,18 +349,6 @@ img.flames {
 /*img.title,
 img.character {
 	padding-top:50px;
-}*/
-
-#blimpo img.character {
-	padding-top:0px;
-}
-
-/* hacking bootstrap styling for flames-sticky-bottom: */
-/*@media( min-width:768px ) {
-.row {
-	position: relative;
-}
-
 }*/
 
 .titleflame-xs {
