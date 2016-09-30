@@ -90,6 +90,8 @@
 
         <ul class="nav navbar-nav navbar-right">
 
+          <li class="title">  </li>
+
           <li class="fa-buttonz"><a href="#about">
             <i class="fa fa-chevron-circle-down fa-3x"></i></a></li>
           <li class="fa-buttonz"><a href="#heck">
@@ -144,6 +146,12 @@
   <div class="container-fluid">
 
    	<div class="row parent-circle heck-rss">
+
+      <h3> Where the Bad Kids Go News: </h3>
+
+      <script src="http://feeds.feedburner.com/WherethebadkidsgosWeblog?format=sigpro"
+      type="text/javascript" ></script>
+
 
     </div> <!-- .parent-circle .row -->
 
@@ -1363,42 +1371,42 @@
 </footer>
 
 <script type='text/javascript'>
-//
-// $(document).ready(function()
-// {
-//   /* activate scrollspy menu */
-// 	$('body').scrollspy
-//    ({
-//   	target: '#navbar-collapsible',
-//   	offset: 50
-// 	  }
-// 	  );
-//
-//   /* smooth scrolling sections */
-//   $('a[href*=#]:not([href=#])').click(function() {
-//
-//    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-//
-//      var target = $(this.hash);
-//
-//      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-//
-//      if (target.length)
-//      {
-//        $('html,body').animate
-//        ({
-//
-//           scrollTop: target.offset().top - 80
-//
-//           },
-//
-//         1000);
-//
-//         return false;
-//       }
-//     }
-//   });
-// });
+
+$(document).ready(function()
+{
+  /* activate scrollspy menu */
+	$('body').scrollspy
+   ({
+  	target: '#navbar-collapsible',
+  	offset: 50
+	  }
+	  );
+
+  /* smooth scrolling sections */
+  $('a[href*=#]:not([href=#])').click(function() {
+
+   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+     var target = $(this.hash);
+
+     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+
+     if (target.length)
+     {
+       $('html,body').animate
+       ({
+
+          scrollTop: target.offset().top - 80
+
+          },
+
+        1000);
+
+        return false;
+      }
+    }
+  });
+});
 
 </script>
 

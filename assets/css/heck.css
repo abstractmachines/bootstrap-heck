@@ -21,11 +21,24 @@ html,body {
 	overflow: scroll;
 }
 
-a {
+a, h1, h2, h3, h4, h5, h6 {
 	color: #f81414;
 }
 
-a:hover, a:active {
+h4, h5 {
+	font-style: italic;
+}
+
+span {
+	font-style: italic;
+	color: gray;
+}
+
+nav li.title {
+	margin-right: 4em;
+}
+
+a:hover, a:active, .heck-rss a:hover {
 	color: #ddd;
 	text-decoration:none;
 }
@@ -203,26 +216,53 @@ li.fa-buttonz a, li.fa-buttonz a:hover
 	padding:0px;
 }
 
-/* -------------------- RSS FEEDS:
-*/
+/* -------------------- RSS FEEDS: */
+.heck-rss {
+	margin-top: 3em;
+	margin-left: 6em;
+	text-align: center;
+	background: url("../images/levels/3-blimpo/blimpo-balloon-tiny.png") 0 0 no-repeat;
+	background-position: bottom left;
 
-.heck-rss channel title {
-	color: blue;
-   display:block;
-   padding:0.4em 0.2em;
-   color:#FFF;
-   border-bottom:1px solid black;
-   font-weight:bold;
-   font-size:140%;
-   background-color:#4483C7;
+	/*background: url("../images/levels/flames-red-75percent.png") 0 0 no-repeat;
+	background-position: bottom left;*/
+
+	/*background: url("../images/levels/1-heck/heck-title-demon-50percent.png") 0 0 no-repeat;*/
 }
-.heck-rss channel description {
-   display:block;
-   float:left;
-   font-size:130%;
-   font-weight:bold;
-   margin:0.5em;
+
+.heck-rss a {
+	color: #FFF;
 }
+
+.heck-rss ul {
+	list-style: none;
+}
+
+
+
+
+.feedburnerFeedBlock {
+}
+
+.feedburnerFeedBlock p {
+		margin-bottom: 2em;
+
+}
+
+.feedburnerFeedBlock  {
+	color: gray;
+	font-style: italic;
+}
+
+.feedburnerFeedBlock .headline {
+	font-style: normal;
+	margin-bottom: 0px;
+}
+
+.feedburnerFeedBlock a img {
+	display: none;
+}
+
 
 
 /* PARENT ROWS --- Heck Circles / Levels ------------------------ */
@@ -341,6 +381,9 @@ img.title {
 
 /* sm breakpoint */
 @media( min-width:768px ) {
+.heck-rss {
+	padding-top: 70px;
+}
 img.title {
 	padding-top: 4em;
 	}
