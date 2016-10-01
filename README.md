@@ -13,4 +13,4 @@ Some examples of my design work...
 
 ![Bootstrap classes for larger desktops](/assets/demo-img/heck-lg.png "Larger desktops")
 
-![Bootstrap fun footer](/assets/demo-img/heck-lg.png "Footer Flame")
+![Bootstrap fun footer](/assets/demo-img/footer-flame.png "Footer Flame")
