@@ -9,16 +9,17 @@ html,body {
   background: #000;
 	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
 	color: #fff;
+	/*overflow-x: hidden;*/
 }
 
 .container-fluid {
 	height:100%;
-	width: 100%;
+	/*width: 100%;*/
 	background: transparent;
 	padding-top:0px;
 	padding-bottom: 0px;
 	padding-right: 0em;
-	overflow: scroll;
+	overflow: hidden;
 }
 
 a, h1, h2, h3, h4, h5, h6 {
@@ -127,7 +128,7 @@ author: bootply.com
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width:100%;
+	/*width:100%;*/
 	/*background:
 		scroll url('../images/levels/4-fibble/fibble-panel.png') 0 0 repeat;*/
 	background: #000;
