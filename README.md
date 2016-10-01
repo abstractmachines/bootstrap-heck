@@ -12,3 +12,5 @@ Some examples of my design work...
 ![Bootstrap classes for small desktops and tablets](/assets/demo-img/snivel-md.png "Sm desktops and tablets")
 
 ![Bootstrap classes for larger desktops](/assets/demo-img/heck-lg.png "Larger desktops")
+
+![Bootstrap fun footer](/assets/demo-img/heck-lg.png "Footer Flame")
