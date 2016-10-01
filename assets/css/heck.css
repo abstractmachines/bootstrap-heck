@@ -7,7 +7,7 @@ writing, and all written content by dale basye
 html,body {
 	height:100%;
   background: #000;
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
 	color: #fff;
 }
 
@@ -17,12 +17,24 @@ html,body {
 	background: transparent;
 	padding-top:0px;
 	padding-bottom: 0px;
-	padding-right: 4em;
+	padding-right: 0em;
 	overflow: scroll;
 }
 
 a, h1, h2, h3, h4, h5, h6 {
 	color: #f81414;
+}
+
+.child-circle h1, .child-circle h2,
+.child-circle h3, .child-circle h4 {
+	/*font-family: 'Loved by the King', cursive;*/
+	text-align: center;
+	/*display: inline-block;*/
+}
+
+.child-circle h4 {
+	margin-bottom: -0.05em;
+	text-align: left;
 }
 
 h4, h5 {
@@ -32,10 +44,6 @@ h4, h5 {
 span {
 	font-style: italic;
 	color: gray;
-}
-
-nav li.title {
-	margin-right: 4em;
 }
 
 a:hover, a:active, .heck-rss a:hover {
@@ -53,14 +61,20 @@ footer {
 	opacity:0.80;
 	background: #000;
 	color:#ddd;
+	margin-top: 0;
 	/*min-height:100px;*/
 	/*padding-top:8em;*/
 	/*padding-bottom:10em;*/
 	z-index:3;
 }
 
+footer .nav>li,
 footer .nav>li>a {
-	padding:3px;
+	margin: 0.3em;
+	padding: 0;
+}
+
+footer .nav>li>a {
 	color:#ccc;
 }
 
@@ -218,35 +232,20 @@ li.fa-buttonz a, li.fa-buttonz a:hover
 
 /* -------------------- RSS FEEDS: */
 .heck-rss {
-	margin-top: 3em;
-	margin-left: 6em;
+	margin-top: 2em;
 	text-align: center;
-	background: url("../images/levels/3-blimpo/blimpo-balloon-tiny.png") 0 0 no-repeat;
-	background-position: bottom left;
-
-	/*background: url("../images/levels/flames-red-75percent.png") 0 0 no-repeat;
-	background-position: bottom left;*/
-
-	/*background: url("../images/levels/1-heck/heck-title-demon-50percent.png") 0 0 no-repeat;*/
 }
 
 .heck-rss a {
-	color: #FFF;
+	color: #f81414;
+}
+
+.heck-rss a:hover {
+	color: #DDD;
 }
 
 .heck-rss ul {
 	list-style: none;
-}
-
-
-
-
-.feedburnerFeedBlock {
-}
-
-.feedburnerFeedBlock p {
-		margin-bottom: 2em;
-
 }
 
 .feedburnerFeedBlock  {
@@ -259,10 +258,19 @@ li.fa-buttonz a, li.fa-buttonz a:hover
 	margin-bottom: 0px;
 }
 
+.feedburnerFeedBlock .headline::before {
+    content: "From the Heck blog: ";
+		margin-right: 0.005em;
+		color: #f81414;
+		color: gray;
+		/*font-style: italic;*/
+		font-weight: strong;
+		font-size: 110%;
+}
+
 .feedburnerFeedBlock a img {
 	display: none;
 }
-
 
 
 /* PARENT ROWS --- Heck Circles / Levels ------------------------ */
@@ -357,9 +365,6 @@ section#rapacia img.character {
 	margin-left: 0em;
 }
 
-
-
-
 section#wise-acres img.character {
 	padding-top: 16em;
 }
@@ -370,19 +375,36 @@ section#snivel img.character {
 }*/
 
 
-/* STICKY FLAMES  bootstrap 3 breakpoints ---- */
+/* bootstrap 3 breakpoints ----
+* For the purposes of additional customization beyond what bootstrap offers
+* Includes:
+*		- Sticky Flames
+*		- Book Character Top Padding
+*		- RSS Top Padding
+*/
+
+/* In
 
 /* xs breakpoint  */
 @media( max-width:768px ) {
 img.title {
-	padding-top: 2em;
+	margin-top: 7em;
+	background: none;
+}
+.heck-rss {
+	margin-top: 5em;
+	text-align: center;
+	margin-bottom: 0.05em;
+	font-size: 85%;
 }
 }
 
 /* sm breakpoint */
 @media( min-width:768px ) {
 .heck-rss {
-	padding-top: 70px;
+	padding-top: 3.3em;
+	/*background: url("../images/levels/3-blimpo/blimpo-balloon-tinypico.png") 0 0 no-repeat;
+	background-position: bottom left;*/
 }
 img.title {
 	padding-top: 4em;
@@ -414,12 +436,14 @@ section#rapacia img.character {
 
 /* md breakpoint */
 @media( min-width:992px ) {
+.heck-rss {
+	padding-top: 3.3em;
+}
 img.title {
 	padding-top: 7em;
 }
 img.flames {
 	padding-top:2em;
-	/*background: green;*/
 }
 section#heck img.title {
 	padding-top:4em;
@@ -452,24 +476,14 @@ img.flames {
 }
 
 /* CHILD ROWS ---------- */
-
-.audio-synopsis {
-	min-width:470px;
-	color: #FFF;
+.buy {
+	text-align: center;
 }
 
 .buy img {
-	display: block;
-	clear: both;
-	margin-right:20px;
-	margin-top:10px;
-	margin-bottom:10px;
-	-webkit-box-shadow: 2px 2px 2px #666;
-	box-shadow: 2px 2px 2px #666;
-}
-
-.buy  {
-	min-width:150px;
+	margin-top: 4em;
+	display: inline;
+	clear:both;
 }
 
 /* LOWER SECTIONS ROWS W/ SOCIAL MEDIA, ABOUT, ABOUT AUTHOR DALE BASYE AND HECK SERIES ---------- */
@@ -483,11 +497,19 @@ img.flames {
 	text-align:center;
 	margin: 0 auto;
 	background: #000;
-	opacity: 0.7;
+	opacity: 0.9;
 }
 
 #about p, #about h1, #about h2 {
-	margin-left:10em;
-	margin-right:10em;
+	margin-left:2em;
+	margin-right:2em;
 	opacity:1.8;
+}
+
+.flamerow {
+	background: url("../images/levels/flames-burgundy-50percent-flamerow.png") 0 -15px repeat-x;
+	background-position: bottom;
+	min-height: 70px;
+	max-height: 100px;
+	margin-bottom: 0em;
 }
