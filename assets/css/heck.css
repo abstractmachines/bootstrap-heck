@@ -463,9 +463,9 @@ img.flames {
 .flamerow {
 	background: url("../images/levels/flames-burgundy-50percent-flamerow.png") 0 -15px repeat-x;
 	background-position: bottom;
-	min-height: 70px;
-	max-height: 100px;
-	margin-bottom: 0em;
+	min-height: 130px;
+	max-height: 200px;
+	margin-bottom: 2em;
 }
 
 footer {
