@@ -58,6 +58,12 @@ a:hover, a:active, .heck-rss a:hover {
 	z-index: 0;
 }
 
+ul.mobile-footer>li {
+	display: inline;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
 footer {
 	opacity:0.80;
 	background: #000;
@@ -132,6 +138,10 @@ author: bootply.com
 	/*background:
 		scroll url('../images/levels/4-fibble/fibble-panel.png') 0 0 repeat;*/
 	background: #000;
+}
+
+.navbar-right {
+	padding-right: 3em;
 }
 
 .navbar-toggle .icon-bar {
@@ -250,7 +260,8 @@ li.fa-buttonz a, li.fa-buttonz a:hover
 }
 
 .feedburnerFeedBlock  {
-	color: gray;
+	font-size: 140%;
+
 	font-style: italic;
 }
 
@@ -260,13 +271,12 @@ li.fa-buttonz a, li.fa-buttonz a:hover
 }
 
 .feedburnerFeedBlock .headline::before {
-    content: "From the Heck blog: ";
+    content: "NEW!! Continuation of Heck Series / Posts from the Heck Blog: ";
 		margin-right: 0.005em;
 		color: #f81414;
-		color: gray;
+		/*color: gray;*/
 		/*font-style: italic;*/
 		font-weight: strong;
-		font-size: 110%;
 }
 
 .feedburnerFeedBlock a img {
