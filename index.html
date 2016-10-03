@@ -1386,6 +1386,9 @@
        <h2> <a href="http://www.randomhousekids.com/authors-illustrators/detail/473#.U92UCIBdX20"
         target="_blank"> Random House Author Page </a> </h2>
 
+       <h2><a href="http://www.bobdob.com/" target="_blank"> All illustrations
+          in Heck series, and on this website, are copyright Bob Dob. </a></li>
+
       <h2 id="contact">CONTACT: heck at wherethebadkidsgo dot com.</h2>
       Note: this email is not linked, to avoid spam. You'll have to type it out
       yourself!
@@ -1410,28 +1413,6 @@
 <nav class="navbar navbar-trans navbar-fixed-bottom">
   <div class="navbar-footer">
 
-    <ul class="mobile-footer visible-xs col-xs-12 hidden-sm hidden-md hidden-lg">
-
-     <li class="fa-buttonz">
-       <a href="http://www.amazon.com/Dale-E.-Basye/e/B001JRREZM" target="_blank">
-         <i class="fa fa-shopping-cart fa-3x"></i>
-       </a></li>
-    <li class="fa-buttonz">
-      <a href="https://www.facebook.com/Heck-225768251583" target="_blank">
-        <i class="fa fa-facebook-square fa-3x"></i>
-      </a></li>
-    <li class="fa-buttonz">
-      <a href="https://twitter.com/Go2Heck" target="_blank">
-        <i class="fa fa-twitter-square fa-3x"></i>
-      </a></li>
-    <li class="fa-buttonz">
-      <a href="#contact" target="_blank">
-        <i class="fa fa-envelope fa-3x"></i>
-      </a></li>
-    <li>&nbsp;</li>
-  </ul>
-
-
   <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs text-center">
     <ul class="nav">
     <li><a href="http://www.bobdob.com/" target="_blank"> Illustrations by Bob Dob</a></li>
@@ -1449,12 +1430,37 @@
     </ul>
   </div>
 
-  <div class="col-xs-12 col-sm-4 col-lg-4 col-md-4 text-center">
+  <div class="hidden-xs col-sm-4 col-lg-4 col-md-4 text-center">
    <ul class="nav">
-  <li><a href="#pagetop"><i class="fa fa-chevron-circle-up fa-4x"></i></a></li>
+     <li><a href="#pagetop"><i class="fa fa-chevron-circle-up fa-4x"></i></a></li>
    </ul>
-   </div>
+  </div>
 
+  <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+   <ul class="nav mobile-footer">
+
+     <li class="fa-buttonz">
+       <a href="http://www.amazon.com/Dale-E.-Basye/e/B001JRREZM" target="_blank">
+         <i class="fa fa-shopping-cart fa-2x"></i>
+       </a></li>
+     <li class="fa-buttonz">
+      <a href="https://www.facebook.com/Heck-225768251583" target="_blank">
+        <i class="fa fa-facebook-square fa-2x"></i>
+      </a></li>
+
+     <li><a href="#pagetop"><i class="fa fa-chevron-circle-up fa-2x"></i></a></li>
+
+     <li class="fa-buttonz">
+      <a href="https://twitter.com/Go2Heck" target="_blank">
+        <i class="fa fa-twitter-square fa-2x"></i>
+      </a></li>
+     <li class="fa-buttonz">
+      <a href="#contact" target="_blank">
+        <i class="fa fa-envelope fa-2x"></i>
+      </a></li>
+
+   </ul>
+  </div>
 
 </div>
 
@@ -1526,9 +1532,9 @@ jQuery(document).ready(function(){
 // wait until window is loaded (images, stylesheets, links etc...)
  $(window).on("load", function()
  {
-   $("ul.nav li a").animate({margin: '6'},300);
+   $("ul.nav li a").animate({margin: '4'},300);
 
-   $("#footer").animate({height: '8em',opacity:'0.7'},300);
+   $("#footer").animate({height: '4em',opacity:'0.7'},300);
  });
 
 });

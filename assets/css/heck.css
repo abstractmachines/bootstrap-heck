@@ -22,15 +22,14 @@ html,body {
 	overflow: hidden;
 }
 
-a, h1, h2, h3, h4, h5, h6 {
+a, h1, h2, h3, h4, h5, h6, a:visited {
 	color: #f81414;
+	text-decoration: none;
 }
 
 .child-circle h1, .child-circle h2,
 .child-circle h3, .child-circle h4 {
-	/*font-family: 'Loved by the King', cursive;*/
 	text-align: center;
-	/*display: inline-block;*/
 }
 
 .child-circle h4 {
@@ -56,38 +55,6 @@ a:hover, a:active, .heck-rss a:hover {
 	background: #000;
 	position:relative;
 	z-index: 0;
-}
-
-ul.mobile-footer>li {
-	display: inline;
-	margin-left: 1em;
-	margin-right: 1em;
-}
-
-footer {
-	opacity:0.80;
-	background: #000;
-	color:#ddd;
-	margin-top: 0;
-	/*min-height:100px;*/
-	/*padding-top:8em;*/
-	/*padding-bottom:10em;*/
-	z-index:3;
-}
-
-footer .nav>li,
-footer .nav>li>a {
-	margin: 0.3em;
-	padding: 0;
-}
-
-footer .nav>li>a {
-	color:#ccc;
-}
-
-footer .nav>li>a:hover {
-	background-color:transparent;
-	color:#fff;
 }
 
 a.toplink {
@@ -149,8 +116,6 @@ author: bootply.com
 }
 
 .navbar-trans .navbar-fixed-top {
-/*	display:block;
-	clear:both; --- VERTICAL --- */
 	float: right;
 }
 
@@ -364,28 +329,6 @@ section#wise-acres img.character {
 	padding-top: 13em;
 }
 
-/*
-section#heck img.character {
-padding-top:
-	margin-left: -1em;
-}
-
-section#rapacia img.character {
-	padding-top: 7em;
-	padding-left: 1em;
-	margin-left: 0em;
-}
-
-section#wise-acres img.character {
-	padding-top: 16em;
-}
-
-section#snivel img.character {
-	padding-top: 1em;
-	margin-left: -1em;
-}*/
-
-
 /* bootstrap 3 breakpoints ----
 * For the purposes of additional customization beyond what bootstrap offers
 * Includes:
@@ -523,4 +466,39 @@ img.flames {
 	min-height: 70px;
 	max-height: 100px;
 	margin-bottom: 0em;
+}
+
+footer {
+	opacity:0.80;
+	background: #000;
+	color:#ddd;
+	margin-top: 0;
+	/*min-height:100px;*/
+	/*padding-top:8em;*/
+	/*padding-bottom:10em;*/
+	z-index:3;
+}
+
+footer .nav>li,
+footer .nav>li>a {
+	margin: 0.3em;
+	padding: 0;
+}
+
+footer .nav>li>a {
+	color:#ccc;
+}
+
+footer .nav>li>a:hover {
+	background-color:transparent;
+	color:#fff;
+}
+
+ul.mobile-footer>li,
+ul.mobile-footer>li>a,
+ul.mobile-footer>li>a:hover {
+	display: inline-block;
+	/*margin-left: 1em;
+	margin-right: 1em;*/
+	padding-bottom: 0em;
 }
