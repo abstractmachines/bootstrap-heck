@@ -1483,38 +1483,24 @@
 </footer>
 
 
+<script type="text/javascript">
 
-<script type='text/javascript'>
+// smooth scrolling
 
 $(document).ready(function()
 {
-  /* activate scrollspy menu */
-	// $('body').scrollspy
-  //  ({
-  // 	target: '#navbar-collapsible',
-  // 	offset: 50
-	//   }
-	//   );
+  $('a[href*=#]:not([href=#])').click(function()
+  {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+      && location.hostname == this.hostname)
+    {
+      var target = $(this.hash);
 
-  /* smooth scrolling sections */
-  $('a[href*=#]:not([href=#])').click(function() {
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 
-   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-
-     var target = $(this.hash);
-
-     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-
-     if (target.length)
-     {
-       $('html,body').animate
-       ({
-
-          scrollTop: target.offset().top - 60
-
-          },
-
-        1000);
+      if (target.length)
+      {
+        $('html,body').animate({scrollTop: target.offset().top - 60},1000);
 
         return false;
       }
@@ -1525,23 +1511,27 @@ $(document).ready(function()
 </script>
 
 <script type="text/javascript">
-// http://jsfiddle.net/Pm3cj/1/
-jQuery(document).ready(function(){
 
-$(".button").on("click", function(e) {
+// scrolling functionality
+
+jQuery(document).ready(function()
+{
+  $(".button").on("click", function(e)
+  {
     $(document).scrollTop($(this).parent().next().offset().top);
-  // $(this).parent().next() // this is the next div container.
-    return false;
+  });
+
+  return false;
 });
 
 </script>
 
-
 <script type="text/javascript">
+
+// animate menu
 
 jQuery(document).ready(function(){
 
-// wait until window is loaded (images, stylesheets, links etc...)
  $(window).on("load", function()
  {
    $("ul.nav li a").animate({margin: '4'},300);
@@ -1552,6 +1542,6 @@ jQuery(document).ready(function(){
 });
 </script>
 
-    </body>
+</body>
 
 </html>
