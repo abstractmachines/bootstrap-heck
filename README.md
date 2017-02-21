@@ -2,6 +2,7 @@
 # Bootstrap Responsive Design site
 
 ## Made with:
+[![apm](https://img.shields.io/apm/v/vim-mode.svg?style=flat)](https://github.com/atom/apm)
 > • Bootstrap, @media queries / breakpoints, responsive images,
 Atom (bootstrap boot-lint, css-lint), git, Photoshop.
 
