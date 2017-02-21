@@ -1,11 +1,25 @@
 
-## Bootstrap Responsive site for client
+# Bootstrap Responsive Design site
 
-# bootstrap classes, @media queries for customized breakpoints
+## Made with:
+> • Bootstrap, @media queries / breakpoints, responsive images,
+Atom (bootstrap boot-lint, css-lint), git, Photoshop.
 
-# responsive *images*.
+A custom app for Sam Ford, an illustrator and artist.
 
-Some examples of my design work...
+Design + Code: Amanda Falke (2016)
+
+Illustrations copyright Bob Dob
+
+
+## Background:
+### A "performance-first, mobile-first" responsive site
+Replacing a Random House Publications' author's old Flash website.
+As many techniques as possible were used to avoid FOUC (Flash of Unstyled
+Content).
+
+### Responsive design (mobile first):
+### Mobile:
 
 ![Bootstrap classes for larger desktops](/assets/demo-img/heck-lg.png "Larger desktops")
 
