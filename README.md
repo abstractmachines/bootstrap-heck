@@ -20,15 +20,17 @@ Content).
 
 ## Responsive design (mobile first):
 
-### Desktops:
-
-![Bootstrap classes for larger desktops](/assets/demo-img/heck-lg.png "Larger desktops")
+### Mobile:
+![Responsive Bootstrap Mobile](/assets/demo-img/rapacia-mobile.png "Mobile")
 
 ### Tablets:
 ![Bootstrap classes for small desktops and tablets](/assets/demo-img/snivel-md.png "Sm desktops and tablets")
 
-### Mobile:
-![Responsive Bootstrap Mobile](/assets/demo-img/rapacia-mobile.png "Mobile")
+### Desktops:
+
+![Bootstrap classes for larger desktops](/assets/demo-img/heck-lg.png "Larger desktops")
+
+![Bootstrap classes for larger desktops](/assets/demo-img/snivel-desktop-large.png "Larger desktops")
 
 ### Footer of site has fun little graphics:
 ![Bootstrap fun footer](/assets/demo-img/footer-flame.png "Footer Flame")
