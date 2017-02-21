@@ -6,7 +6,8 @@
 > • Bootstrap, @media queries / breakpoints, responsive images,
 Atom (bootstrap boot-lint, css-lint), git, Photoshop.
 
-A custom app for Sam Ford, an illustrator and artist.
+A custom scrolling Bootstrap single page site for Random House author Dale
+Basye's book series "Heck, Where The Bad Kids Go".
 
 Design + Code: Amanda Falke (2016)
 
