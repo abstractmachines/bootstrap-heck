@@ -18,13 +18,17 @@ Replacing a Random House Publications' author's old Flash website.
 As many techniques as possible were used to avoid FOUC (Flash of Unstyled
 Content).
 
-### Responsive design (mobile first):
-### Mobile:
+## Responsive design (mobile first):
+
+### Desktops:
 
 ![Bootstrap classes for larger desktops](/assets/demo-img/heck-lg.png "Larger desktops")
 
+### Tablets:
 ![Bootstrap classes for small desktops and tablets](/assets/demo-img/snivel-md.png "Sm desktops and tablets")
 
+### Mobile:
 ![Responsive Bootstrap Mobile](/assets/demo-img/rapacia-mobile.png "Mobile")
 
+### Footer of site has fun little graphics:
 ![Bootstrap fun footer](/assets/demo-img/footer-flame.png "Footer Flame")
