@@ -9,7 +9,7 @@ Atom (bootstrap boot-lint, css-lint), git, Photoshop.
 A custom scrolling Bootstrap single page site for Random House author Dale
 Basye's book series "Heck, Where The Bad Kids Go".
 
-Design + Code: Amanda Falke (2016)
+Design + Code: Amanda Falke, Portland Oregon
 
 Illustrations copyright Bob Dob
 
