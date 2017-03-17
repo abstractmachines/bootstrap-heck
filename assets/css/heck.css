@@ -6,15 +6,13 @@ writing, and all written content by dale basye
 
 html,body {
 	height:100%;
-  background: #000;
+	background: #000;
 	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
 	color: #fff;
-	/*overflow-x: hidden;*/
 }
 
 .container-fluid {
 	height:100%;
-	/*width: 100%;*/
 	background: transparent;
 	padding-top:0px;
 	padding-bottom: 0px;
@@ -101,9 +99,6 @@ author: bootply.com
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	/*width:100%;*/
-	/*background:
-		scroll url('../images/levels/4-fibble/fibble-panel.png') 0 0 repeat;*/
 	background: #000;
 }
 
@@ -168,10 +163,6 @@ li#heck-menu a {
 	background: url("../images/levels/menu-artwork-tiny.png") 0 0 no-repeat;
 }
 
-li#heck-menu a:hover {
-/*	background: url("../images/levels/menu-artwork.png") -92px 0 repeat-x; */
-}
-
 li#rapacia-menu a {
 	background: url("../images/levels/menu-artwork-tiny.png") 0 -60px no-repeat;
 }
@@ -179,15 +170,19 @@ li#rapacia-menu a {
 li#blimpo-menu a {
 	background: url("../images/levels/menu-artwork-tiny.png") 0 -117px no-repeat;
 }
+
 li#fibble-menu a {
 	background: url("../images/levels/menu-artwork-tiny.png") 0 -174px no-repeat;
 }
+
 li#snivel-menu a {
 	background: url("../images/levels/menu-artwork-tiny.png") 0 -233px no-repeat;
 }
+
 li#precocia-menu a {
 	background: url("../images/levels/menu-artwork-tiny.png") 0 -295px no-repeat;
 }
+
 li#wise-acres-menu a {
 	background: url("../images/levels/menu-artwork-tiny.png") 0 -350px no-repeat;
 }
@@ -195,12 +190,13 @@ li#wise-acres-menu a {
 li#about-heck-menu a {
 	background: url("../images/levels/about-menu-books.png") 0 0 no-repeat;
 }
+
 li#about-author-menu a {
 	background: url("../images/levels/about-menu-author.png") 0 0 no-repeat;
 }
 
 li.fa-buttonz a, li.fa-buttonz a:hover
- {
+{
 	background: transparent;
 	margin:0px;
 	padding:0px;
@@ -236,23 +232,17 @@ li.fa-buttonz a, li.fa-buttonz a:hover
 }
 
 .feedburnerFeedBlock .headline::before {
-    content: "NEW!! Continuation of Heck Series / Posts from the Heck Blog: ";
-		margin-right: 0.005em;
-		color: #f81414;
-		/*color: gray;*/
-		/*font-style: italic;*/
-		font-weight: strong;
+	content: "NEW!! Continuation of Heck Series / Posts from the Heck Blog: ";
+	margin-right: 0.005em;
+	color: #f81414;
+	font-weight: strong;
 }
 
 .feedburnerFeedBlock a img {
 	display: none;
 }
 
-
 /* PARENT ROWS --- Heck Circles / Levels ------------------------ */
-
-/* Parent Circle Rows ---- */
-
 #heck .parent-circle {
 	background: url("../images/levels/1-heck/heck-panel.png") 0 0 repeat;
 }
@@ -337,8 +327,6 @@ section#wise-acres img.character {
 *		- RSS Top Padding
 */
 
-/* In
-
 /* xs breakpoint  */
 @media( max-width:768px ) {
 img.title {
@@ -357,15 +345,12 @@ img.title {
 @media( min-width:768px ) {
 .heck-rss {
 	padding-top: 3.3em;
-	/*background: url("../images/levels/3-blimpo/blimpo-balloon-tinypico.png") 0 0 no-repeat;
-	background-position: bottom left;*/
 }
 img.title {
 	padding-top: 4em;
 	}
 img.flames {
 	padding-top:2em;
-	/*background: red;*/
 }
 section#heck img.title {
 	padding-top:2.7em;
@@ -440,8 +425,7 @@ img.flames {
 	clear:both;
 }
 
-/* LOWER SECTIONS ROWS W/ SOCIAL MEDIA, ABOUT, ABOUT AUTHOR DALE BASYE AND HECK SERIES ---------- */
-
+/* LOWER SECTIONS ROWS W/ SOCIAL MEDIA, ABOUT ---------- */
 .navbar-fixed-bottom,
 .navbar-footer {
 	background: #000;
@@ -473,9 +457,6 @@ footer {
 	background: #000;
 	color:#ddd;
 	margin-top: 0;
-	/*min-height:100px;*/
-	/*padding-top:8em;*/
-	/*padding-bottom:10em;*/
 	z-index:3;
 }
 
@@ -498,7 +479,5 @@ ul.mobile-footer>li,
 ul.mobile-footer>li>a,
 ul.mobile-footer>li>a:hover {
 	display: inline-block;
-	/*margin-left: 1em;
-	margin-right: 1em;*/
 	padding-bottom: 0em;
 }
