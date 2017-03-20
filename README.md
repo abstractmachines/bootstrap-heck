@@ -7,9 +7,7 @@
 Atom (bootstrap boot-lint, css-lint), git, Photoshop.
 
 > • Things that would be beneficial but were avoided for sake of simplicity:
-> 1. Bundler (Browserify or Webpack)
-> 2. Twitter bootstrap SASS
-> 3. Package management: npm
+Bundler (Browserify or Webpack); Bootstrap SASS; Package management: npm
 
 ## The project:
 A custom scrolling Bootstrap single page site for Random House author Dale
