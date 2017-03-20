@@ -14,9 +14,9 @@ html,body {
 .container-fluid {
 	height:100%;
 	background: transparent;
-	padding-top:0px;
-	padding-bottom: 0px;
-	padding-right: 0em;
+	padding-top:0;
+	padding-bottom: 0;
+	padding-right: 0;
 	overflow: hidden;
 }
 
@@ -151,7 +151,7 @@ box-shadow:
 }
 
 .navbar-fixed-top li.fa-buttonz a {
-	text-indent: 0px;
+	text-indent: 0;
 	opacity: 1.0;
 }
 
@@ -198,8 +198,8 @@ li#about-author-menu a {
 li.fa-buttonz a, li.fa-buttonz a:hover
 {
 	background: transparent;
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
 }
 
 /* -------------------- RSS FEEDS: */
@@ -228,7 +228,7 @@ li.fa-buttonz a, li.fa-buttonz a:hover
 
 .feedburnerFeedBlock .headline {
 	font-style: normal;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .feedburnerFeedBlock .headline::before {
@@ -284,7 +284,7 @@ li.fa-buttonz a, li.fa-buttonz a:hover
 }
 
 .titleflame {
-	margin-left: 0em;
+	margin-left: 0;
 	padding-left: 2em;
 	padding-right: 1em;
 	z-index: 2;
@@ -297,8 +297,8 @@ li.fa-buttonz a, li.fa-buttonz a:hover
 }
 
 .bookcharacters {
-	margin-left: 0em;
-	padding-left: 0em;
+	margin-left: 0;
+	padding-left: 0;
 	z-index: 1;
 }
 
@@ -307,7 +307,7 @@ img.character {
 }
 
 section#blimpo img.character {
-	padding-top: 0em;
+	padding-top: 0;
 }
 
 section#fibble img.character {
@@ -479,5 +479,5 @@ ul.mobile-footer>li,
 ul.mobile-footer>li>a,
 ul.mobile-footer>li>a:hover {
 	display: inline-block;
-	padding-bottom: 0em;
+	padding-bottom: 0;
 }
