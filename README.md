@@ -6,13 +6,18 @@
 > • Bootstrap, @media queries / breakpoints, responsive images,
 Atom (bootstrap boot-lint, css-lint), git, Photoshop.
 
+> • Things that would be beneficial but were avoided for sake of simplicity:
+1. Bundler (Browserify or Webpack)
+2. Twitter bootstrap SASS
+3. Package management: npm
+
+## The project:
 A custom scrolling Bootstrap single page site for Random House author Dale
 Basye's book series "Heck, Where The Bad Kids Go".
 
 Design + Code: Amanda Falke, Portland Oregon
 
-Illustrations copyright Bob Dob
-
+Illustrations copyright Bob Dob for Random House Kids
 
 ## Background:
 ### A "performance-first, mobile-first" responsive site
